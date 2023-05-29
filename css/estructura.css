@@ -130,7 +130,7 @@ header a:hover{
     border-radius: 15px;
 }
 .opcion:first-child{
-    background-image:url("../images/londres.jpg");
+    background-image:url("../images/Londres.jpg");
  }
 
 .opcion:nth-child(2){
@@ -398,7 +398,7 @@ footer .container{
     }
       
     .opcion:first-child{
-        background-image:url("../images/londrespan.jpg");
+        background-image:url("../images/Londrespan.jpg");
         
     }
     

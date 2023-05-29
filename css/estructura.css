@@ -130,8 +130,8 @@ header a:hover{
     border-radius: 15px;
 }
 .opcion:first-child{
-    background-image:url("../images/Londres.jpg");
-}
+    background-image:url("../images/londres.jpg");
+ }
 
 .opcion:nth-child(2){
     background-image:url("../images/playas.jpg");
@@ -320,7 +320,7 @@ footer .container{
 
 #opiniones{
     display: flex;
-    padding:40px 10px 50px 20px;;
+    padding:40px 10px 50px 20px;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -398,7 +398,7 @@ footer .container{
     }
       
     .opcion:first-child{
-        background-image:url("../images/Londrespan.jpg");
+        background-image:url("../images/londrespan.jpg");
         
     }
     

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Form pagima de viajes</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inicio de Proyecto</title>
+        <link rel="stylesheet" href="../css/estructura.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <a href="../index.html">
+                    <img src="../images/logo_menu.jpeg" width="75" height="75" alt="" class="bordesRound" >
+                    </a>
+                </div>
+                <h3>Viajar es vivir<h3>
+            </div>
+        </header>
+                
+        <form class="backgform" action="">
+            <div class="formulario">
+                <h3>Formulario de contacto - Escribinos y en breve nos contactamos con vos</h3>
+                <p>
+                <label for="nombre" class="colocar_nombre">Nombre
+                      <span class="obligatorio">*</span>
+                </label>
+                <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribí tu nombre">
+                </p>
+        
+                <p>
+                <label for="email" class="colocar_email">Email
+                <span class="obligatorio">*</span>
+                </label>
+                <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribí tu Email">
+                 </p>
+              
+                <p>
+                <label for="telefone" class="colocar_telefono">Teléfono
+                </label>
+                <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribí tu teléfono">
+                </p>
+
+                <p> 
+                <label for="Destino de preferencia" class="destino">Elige Destino
+                <select>
+                    <option value="1">Argentina
+               
+                     <option value="2">Sudamerica</option>
+               
+                     <option value="3">Mexico y Caribe</option>
+                  
+                     <option value="4">Estados Unidos y Canada</option>
+                       
+                     <option value="5">Europa clasica</option>
+                            
+                     <option value="6">Turquia y Grecia</option>
+
+                     <option value="7">Australia y Nueva Zelanda</option>
+                       
+                     <option value="8">Oriente</option>
+                            
+                     <option value="9">Africa</option>
+                
+                     <option value="10">Cruceros</option>
+                </select>
+                </p>  
+
+                <p>  
+                <label for="mensaje" class="colocar_mensaje">Mensaje
+                     <span class="obligatorio">*</span>
+                </label>                     
+                <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu consulta..."></textarea> 
+                </p>      
+                <p class="aviso">
+                <span class="obligatorio"> * los campos son obligatorios.
+                </span>
+                </p>   
+            </div> 
+            <div class="botonformulario">
+            <button type="submit" name="enviar_formulario" id="enviar" ><p>Enviar</p></button>  
+            </div>
+        </form>
+   
+        <footer>
+            <div class="copyright"> 
+                     <p> Copyright 2023© Viajar es vivir - Todos los derechos reservados</p>
+            </div>
+        </footer> 
+    </body>
+ </html>

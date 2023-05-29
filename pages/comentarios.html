@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Comentarios pagina Viajar es Vivir</title>
+    <link href="https://file.myfontastic.com/tc26fJHv8scB3d4vHQRRsV/icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estructura.css">
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="../index.html">
+                <img src="../images/logo_menu.jpeg" width="75" height="75" alt="" class="bordesRound" >
+                </a>
+            </div>
+            <h3>Viajar es vivir<h3>
+        </div>
+    </header>
+  
+    <section id="comentarios" >
+        <div>   
+            <br>
+            <h2>Dejanos tus comentarios:</h2>  
+            <br>
+            <p>
+            <label for="nombre" class="colocar_nombre">Nombre
+            </label>
+            <input type="text" name="introducir_nombre" cols="40" id="name" required="obligatorio" placeholder="Escribí tu nombre">
+            </p>
+            <p>  
+            <label for="mensaje" class="colocar_mensaje">
+            </label>                     
+            <textarea name="introducir_mensaje" cols="40" rows="5" class="texto_mensaje" id="comment" required="obligatorio" placeholder="Deja aquí tus comentarios..."></textarea> 
+            </p>       
+            <button type="button"  onclick="commentBox();">Enviar comentario</button>
+            <br>
+            <br>
+            <button type="button"  onclick="redirect();">  Ver Opiniones  </button>
+            <br>
+        </div>
+    </section>
+    <footer>
+        <div class="container">   
+            <div class="copyright"> 
+               <p> Copyright 2023© Viajar es vivir - Todos los derechos reservados</p>
+            </div>
+        </div>
+    </footer> 
+    <script src="../scripts/redirect.js"></script>
+    <script src="../scripts/commentbox.js"></script>
+    
+</body>
+</html>

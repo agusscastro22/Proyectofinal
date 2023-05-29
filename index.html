@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Mi pagima de viajes</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estructura.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo_menu.jpeg" width="75" height="75" alt="" class="bordesRound" >
+            </div>
+            <nav>
+                <a href="pages/nosotros.html">Sobre Nosotros</a>
+                <a href="pages/comentarios.html">Opiniones</a>
+                <a href="pages/formulario.html">Contacto</a></li>
+            </nav>
+        </div>
+    </header>
+
+    <section id="Central">
+        <h1>Bienvenido a  <br>tu nuevo destino</h1>
+        <button onclick="location.href='https://viaturi.com/los-lugares-mas-bonitos-del-mundo-visitar/'">Descubrilo!
+        </button>
+    </section>
+    
+    <section id="nuestrosDestinos">
+        <div class="container">
+            <h1>Nuestras Opciones</h1>
+            <div class="Destinos">
+                <div class="opcion">
+                    <h3>Viajero Clasico</h3>
+                    <p>Tenemos toda la informacion para que tu viaje por los destinos clasicos de Europa y Estados Unidos salga como lo soñas... Recorridos, atracciones, compras y mas...</p>
+                    <button id="boton" onclick="mostrar1();">+ Info</button>
+                    <div id="img1">
+                        <button id="boton" onclick="ocultar1();">Ocultar</button>
+                        <img src="images/vermas1.jpg" width="300px" alt="">
+                    </div>
+                </div>
+                <div class="opcion">
+                    <h3>Playas soñadas</h3>
+                    <p>Relax Garantizado.  Te invitamos a conocer las mejores playas de Brasil, Mexico  y el Caribe</p>
+                    <button id="boton" onclick="mostrar2();">+ Info</button>
+                    <div id="img2">
+                        <button id="boton" onclick="ocultar2();">Ocultar</button>
+                        <img src="images/vermas2.jpg" width="300px" alt="">
+                    </div>
+                </div>
+                <div class="opcion">
+                    <h3>Viajes de cabotaje</h3>
+                    <p>Conoce Argentina de Usuahia a La Quiaca de la mano de nuestros especialistas, alojamientos, paseos, comidas tipicas, y todo lo que necesites</p>
+                    <button id="boton" onclick="mostrar3();">+ Info</button>
+                    <div id="img3">
+                        <button id="boton" onclick="ocultar3();">Ocultar</button>
+                        <img src="images/vermas3.jpg" width="300px" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Cruceros">        
+        <div CLASS="container">   
+            <h2>Experiencia en cruceros ...</h2>  
+            <p>Un crucero es ideal para salir de viaje con tu presupuesto ya cerrado, tu recorrido ya organizado, tus comidas cubiertas y tu diversion garantizada!!!
+            <br>Dejate tentar por los placeres de la vida a bordo...</p>    
+            <div class="contiene-video">
+                <iframe src="https://www.youtube.com/embed/yiO2NbqdUJY?" width="1280" height="690" frameborder="0" allowfullscreen="allowfullscreen" ></iframe>
+           </div>
+        </div>  
+    </section>
+
+    <section id="final">
+        <div class="container">
+             <h3>Listo para Viajar? <br>Visitanos en Redes Sociales</h3>
+             <ul class="redSocial">
+                 <li><a href="#" class="fa fa-youtube"></a></li>
+                 <li><a href="#" class="fa fa-twitter"></a></li>
+                 <li><a href="#" class="fa fa-instagram"></a></li>
+                 <li><a href="#" class="fa fa-linkedin"></a></li>
+                 <li><a href="#" class="fa fa-facebook"></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer> 
+        <div class="copyright">              
+            <p> Copyright 2023© Viajar es vivir - Todos los derechos reservados</p>
+        </div> 
+    </footer>
+
+    <script
+         src="scripts/funmostrarocultar.js">
+    </script>
+   </body>
+</html>

@@ -11,8 +11,8 @@ body{
     margin: 0;
 }
 
-h1{ font-size: 3em;}
-h2{ font-size: 2.2em;}
+h1{ font-size: 2.8em;}
+h2{ font-size: 2.0em;}
 h3{ font-size: 1.5em;}
 p{ font-size: 1.25em;}
 ul{ list-style: none;}
@@ -322,7 +322,6 @@ footer .container{
 #comentarios{
     display: flex;
     padding:40px 20px 20px 20px;
-    align-items: left;
     flex-direction: column;
     height: 90vh;
     background-image: url("../images/comentarios.jpg");
@@ -458,11 +457,13 @@ footer .container{
     .formulario p{ 
         font-size: 1.8em;
     }
-     #comentarios h2{
+
+    #comentarios h2{
         font-size: 3.1em;
         text-align: center;
     }
-     #opiniones h2{
+ 
+    #opiniones h2{
         font-size: 2.5em;
         text-align: center;
     }

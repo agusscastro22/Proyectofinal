@@ -32,6 +32,8 @@ function redirect(){
         if(name =="" || comment ==""){
             alert("Por favor ingresa los datos solicitados");
         }else{
+            alert("Gracias por tus comentarios. Nos ayudan a mejorar");
+            location.href='../index.html'	;
             var parent=document.createElement('div');
             var el_name=document.createElement('h5');
             var el_message=document.createElement('p');
@@ -49,7 +51,6 @@ function redirect(){
             document.getElementById('name').value="";
             document.getElementById('comment').value="";
         }
-     
     }
     
 

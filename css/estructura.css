@@ -136,7 +136,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("../images/londres.jpg");
+    ,url("../images/Londres.jpg");
  }
 
 .opcion:nth-child(2){
@@ -446,7 +446,7 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("../images/londrespan.jpg");
+        ,url("../images/Londrespan.jpg");
      }
     
     .opcion:nth-child(2){
